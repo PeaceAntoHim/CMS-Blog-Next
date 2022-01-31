@@ -1,4 +1,4 @@
-##First setup build this project
+## First setup build this project
 write thhis in CLI "npx create-strapi-app your-projcet-name"
 
 # 🚀 Getting started with Strapi
