@@ -1,30 +1,20 @@
 {
-  "name": "blog",
-  "private": true,
+  "name": "with-tailwindcss",
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "private": true,
   "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.0.6",
-    "@strapi/plugin-users-permissions": "4.0.6",
-    "@strapi/plugin-i18n": "4.0.6",
-    "mysql": "2.18.1"
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "d1263f62-272a-4c01-bf97-8ae24e941fdc"
-  },
-  "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
-  },
-  "license": "MIT"
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
 }
